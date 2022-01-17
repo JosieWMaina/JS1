@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+ul li {
+  font-size: 18px;
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+ul li span {
+  background: #666666;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 30px;
+}
+
+.case {
+  background: antiquewhite;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
